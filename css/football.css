@@ -1,0 +1,73 @@
+/* football.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #4267B2; /* Facebook blue color */
+    color: white;
+    padding: 10px;
+  }
+  
+  .navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  /* Style the post container */
+  .container {
+    margin-top: 20px;
+  }
+  
+  .post {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Make the journalist's photo round */
+    margin-right: 10px;
+  }
+  
+  .post p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the comment form */
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the buttons */
+  .button {
+    background-color: #4267B2; /* Facebook blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
